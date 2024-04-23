@@ -62,7 +62,7 @@ describe('Image Registration', () => {
        registerForm.elements.titleInput().should(([element]) => {
         const styles = window.getComputedStyle(element)
         const border = styles.getPropertyValue('border-right-color')
-        assert.strictEqual(border, colors.error)
+        assert.strictEqual(border, colors.errors)
       })
     })
 
