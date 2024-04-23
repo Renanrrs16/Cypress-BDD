@@ -1,0 +1,18 @@
+{
+  "name": "in-class-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "v20.12.2"
+  },
+  "scripts": {
+    "cypress:web": "npx cypress open",
+    "cypress:headless": "npx cypress run --browser electron"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
